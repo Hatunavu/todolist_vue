@@ -5,20 +5,16 @@
                 <flag :iso="entry.flag" v-bind:squared=false /> {{entry.title}}
             </button>
         </div>
-
-        <img alt="Vue logo" src="./assets/logo.png">
-        <HelloWorld msg="Welcome to Your Vue.js App"/>
+        <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+        <router-view></router-view>
     </div>
 </template>
 
 <script>
-    import HelloWorld from './components/HelloWorld.vue';
-    import i18n from '@/plugins/i18n';
 
     export default {
         name: 'app',
         components: {
-            HelloWorld
         },
         data() {
             return {
@@ -30,7 +26,7 @@
         },
         methods: {
             changeLocale(locale) {
-                i18n.locale = locale;
+                this.$i18n.locale = locale;
             }
         }
     }
@@ -46,9 +42,10 @@
         margin-top: 60px;
     }
     button {
-        padding: 15px;
+        cursor: pointer;
+        padding: 5px 15px;
         border: 1px solid green;
-        font-size: 18px;
+        font-size: 15px;
         margin: 15px;
     }
 </style>
