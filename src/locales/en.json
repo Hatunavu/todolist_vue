@@ -1,7 +1,11 @@
 {
     "welcomeMsg": "Welcome",
+    "todoList": "Todo List",
     "createNew": "Create New",
-    "createnNewTodo": "Create New Todo",
-    "save": "Save"
+    "createNewTodo": "Create New Todo",
+    "todoName": "Todo Name",
+    "note": "Note",
+    "save": "Save",
+    "edit": "Edit"
 }
   

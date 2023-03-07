@@ -1,6 +1,10 @@
 {
     "welcomeMsg": "Chào mừng",
+    "todoList": "Các việc cần làm",
     "createNew": "Tạo mới",
-    "createnNewTodo": "Tạo việc cần làm mới",
-    "save": "Lưu"
+    "createNewTodo": "Tạo việc cần làm mới",
+    "todoName": "Tên việc làm",
+    "note": "Ghi chú",
+    "save": "Lưu",
+    "edit": "Sửa"
 }
