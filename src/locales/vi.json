@@ -1,3 +1,6 @@
 {
-    "welcomeMsg": "Chào mừng"
+    "welcomeMsg": "Chào mừng",
+    "createNew": "Tạo mới",
+    "createnNewTodo": "Tạo việc cần làm mới",
+    "save": "Lưu"
 }

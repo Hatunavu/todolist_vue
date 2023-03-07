@@ -1,4 +1,7 @@
 {
-    "welcomeMsg": "Welcome"
+    "welcomeMsg": "Welcome",
+    "createNew": "Create New",
+    "createnNewTodo": "Create New Todo",
+    "save": "Save"
 }
   
